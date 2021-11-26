@@ -1,0 +1,8 @@
+name: 'Informaid paragraphs'
+type: module
+description: 'Paragraphs for informaid'
+core: 8.x
+version: 8.x-1.0
+package: 'Informaid'
+dependencies:
+  - paragraphs
