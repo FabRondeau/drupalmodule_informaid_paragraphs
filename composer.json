@@ -1,0 +1,14 @@
+{
+    "name": "informaid/informaid_paragraphs",
+    "description": "Preprocess for paragraph view_mode background_image and paragraphe type title_text.",
+    "type": "drupal-custom-module",
+    "license": "GPL-2.0-or-later",
+    "authors": [
+        {
+            "name": "FabRondeau",
+            "email": "fabienne.rondeau@informaid.fr"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}
