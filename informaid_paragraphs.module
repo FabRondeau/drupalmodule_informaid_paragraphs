@@ -48,7 +48,7 @@ function informaid_paragraphs_preprocess_paragraph(&$variables) {
   }
   if ($paragraph->bundle() === 'title_text') {
     $parent = $paragraph->getParentEntity();
-    if ($parent->parent_field_name->value === 'field_header') {
+    if ($parent && $parent->parent_field_name && $parent->parent_field_name->value === 'field_header') {
       $variables['nodeTitle'] = $parent->getParentEntity()->getTitle();
     }
   }
